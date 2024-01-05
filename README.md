@@ -2,7 +2,7 @@ When user create an account in your website, you have to ensure that he own the 
 We perform  that through sending an activation link to his email address.
 He has to press this link to verify his account.
 
-                                      First step : Design Signup page using HTML, CSS and JavaScript
+                                   First step : Design Signup page using HTML, CSS and JavaScript
 ![image](https://github.com/AnasBarakat01/EmailVerification-Laravel/assets/155667484/a8fee439-67f8-4646-9609-5e9227dd3ccf)
 
 ![image](https://github.com/AnasBarakat01/EmailVerification-Laravel/assets/155667484/2485dafd-39e8-4591-a0d2-5fd8cac3d83f)
@@ -23,7 +23,7 @@ He has to press this link to verify his account.
 
 
 
-                                            Second step : edit “users” table using migration
+                                Second step : edit “users” table using migration
 
 Add the following columns to "users" table : 
 
