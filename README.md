@@ -7,7 +7,7 @@ He has to press this link to verify his account.
 
 ![image](https://github.com/AnasBarakat01/EmailVerification-Laravel/assets/155667484/2485dafd-39e8-4591-a0d2-5fd8cac3d83f)
 
-![3](https://github.com/AnasBarakat01/EmailVerification-Laravel/assets/155667484/e3539a54-da86-4ad6-b94c-3622236e893c)
+![4](https://github.com/AnasBarakat01/EmailVerification-Laravel/assets/155667484/a711c38e-36b0-499d-abbe-2d67e89c082b)
 
 
 
