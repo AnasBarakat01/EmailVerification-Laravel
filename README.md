@@ -30,3 +30,30 @@ b) activation_code.
 
 c) activation_expiry : the activation_code is valid only for one day.
 
+
+
+
+                                            Third step : validation 
+
+Validate the data user entered in the form using "validate()" function of Laravel.
+I also used “PHP Regex” patterns to make user create password of my standards .
+If the validation fails, user will be redirected to the signup page with the data he entered using "session".
+
+
+                        Fourth step : generate the activation link & send it to user
+                        
+•	Generate the activation code using  "random_bytes()" function.
+
+•	Calculate the expiration for the activation code using "date()" function.
+
+•	Generate the activation link. Like that  'https://app.com/activate.php/email@.com/123456'.
+
+Then store data in the database.
+
+I used “SMTP” protocol and “Mail” class of Laravel to send the activation link to users.
+
+
+                        sixth step : check the verification
+
+if the activation code came from user and expiration are valid, mark user as verified
+
