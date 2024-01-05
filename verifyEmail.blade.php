@@ -23,29 +23,19 @@
         }
 
         .button {
-  background-color: #04AA6D; /* Green */
+  background-color: #0636f8; /* Green */
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
+  font-size: 19px;
+  margin: 8px 8px;
   cursor: pointer;
 }
 
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #04AA6D;
-}
-
-.button1:hover {
-  background-color: #04AA6D;
-  color: white;
-}
+.button5 {border-radius: 50%;}
     </style>
 </head>
 <body class=body>
@@ -63,7 +53,7 @@
     </p>
 
     <form action={{ $activitationLink }} method="GET" >
-    <input type="button" id="myButton" class="button button1"
+        <input type="button" id="myButton" class="button button5"
             value="Resend" onclick="doSomething()">
     </form>
     <script>
